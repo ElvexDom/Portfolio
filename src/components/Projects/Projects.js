@@ -48,7 +48,7 @@ function Projects() {
               imgPath={blockchain}
               isBlog={false}
               title="BlockChain"
-              description="Ce programme basé sous ReactJS permet d'interagir avec des smart contracts en Solidity, dans le but de déployer, lire et écrire des données sur la blockchain Sepolia."
+              description="Ce programme basé sous ReactJS et HardHat permet d'interagir avec des smart contracts en Solidity, dans le but de déployer, lire et écrire des données sur la blockchain Sepolia."
               ghLink="https://github.com/ElvexDom/Sepolia.git"
               demoLink="https://sepolia.elvex-domotique.fr"
             />
