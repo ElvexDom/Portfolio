@@ -13,11 +13,12 @@ function AboutCard() {
             Je suis actuellement en formation chez "Simplon"
             et recherche activement une alternance à partir du mois d'Aout.
             <br />
-            Ayant un niveau intermédiaire en programmation, je connais toutefois mes classiques comme le C++, Javascript et Python.
+            Je possède de bonnes connaissances en programmation, ce qui me permet de bien connaître mes classiques
+            <br />
+            Je maîtrise également les langages comme le C++, le Javascript et le Python.
             <br />
             <br />
-            Mes domaines d'intérêt sont la création de nouvelles technologies et produits Web
-            ainsi que :
+            Mes domaines d'intérêt sont la création de nouvelles <span className="purple">technologies</span> et produits <span className="purple">Web</span>, ainsi que :
           </p>
           <ul>
             <li className="about-activity">
@@ -27,22 +28,22 @@ function AboutCard() {
               <ImPointRight /> La BlockChain
             </li>
             <li className="about-activity">
-              <ImPointRight /> Les objets connectés
+              <ImPointRight /> Les Objets Connectés
             </li>
           </ul>
           <br />
           <p style={{ textAlign: "justify" }}>
-            En dehors du code, voici également les différentes activités auxquelles je m'intéresse :
+            En dehors du code, voici également les différentes <span className="purple">activités</span> auxquelles je m'intéresse :
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Les Sciences
             </li>
             <li className="about-activity">
-              <ImPointRight /> La philosophie
+              <ImPointRight /> La Philosophie
             </li>
             <li className="about-activity">
-              <ImPointRight /> L'aviation
+              <ImPointRight /> L' Aviation
             </li>
           </ul>
         </blockquote>

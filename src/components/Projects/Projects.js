@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import horse from "../../Assets/Projects/Horse.jpg";
+import butterflies from "../../Assets/Projects/Butterflies.jpg";
 import blockchain from "../../Assets/Projects/Blockchain.jpg";
 import weather from "../../Assets/Projects/Weather.jpg";
 import quizz from "../../Assets/Projects/Quizz.jpg";
@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mes récents <strong className="purple">Projets </strong>
+          Mes <strong className="purple">Projets </strong>Récents 
         </h1>
         <p style={{ color: "white" }}>
-          Voici quelques projets sur lesquels j'ai travaillé récemment.
+          Voici différents projets sur lesquels je travaille
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={buddy}
               isBlog={false}
               title="Buddy"
-              description="Ce programme basé sous Python, démarre un serveur qui permet d'éxécuter des requêtes mqtt à travers une API REST"
+              description="Ce programme basé sous Ionic-Svelte, permet d'intéragir avec le SDK Android du robot à travers une API REST."
               ghLink="https://github.com/ElvexDom/formation-python-HUG-API-and-Ionic-Svelte.git"
               demoLink="https://elvex-domotique.fr/wp-content/uploads/2024/05/Buddy.mp4"
             />
@@ -34,10 +34,10 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={horse}
+              imgPath={butterflies}
               isBlog={false}
               title="Thunder Butterflies"
-              description="Ce programme basé sous AngularJS pour une course de chevaux permet d'inscrire des chevaux avec différents paramètres et d'afficher leurs résultats finaux."
+              description="Ce programme basé sous AngularJS pour une course de chevaux permet d'inscrire des participants avec différents paramètres et d'afficher leurs résultats finaux."
               ghLink="https://github.com/ElvexDom/Thunder_Butterflies.git"
               demoLink="https://butterflies.elvex-domotique.fr"
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={quizz}
               isBlog={false}
               title="Quizz"
-              description="Ce programme basé sous NodeJS, utilisant le module express, permet de participer à un questionnaire sur l'alimentation."
+              description="Ce programme basé sous NodeJS utilise le module express et permet de participer à un questionnaire sur l'alimentation."
               ghLink="https://github.com/ElvexDom/Quizz.git"
               demoLink="https://quizz.elvex-domotique.fr"
             />
@@ -70,7 +70,7 @@ function Projects() {
               imgPath={weather}
               isBlog={false}
               title="Weather Life"
-              description="Ce programme basé sous JavaScript, utilisant l'api d'OpenWeather, permet de connaître les informations instantanées de la météo en un lieu donné."
+              description="Ce programme basé sous JavaScript utilise l'api d'OpenWeather et permet de connaître les informations instantanées de la météo en un lieu donné."
               ghLink="https://github.com/ElvexDom/Weather_Life.git"
               demoLink="https://weather.elvex-domotique.fr"
             />
@@ -81,9 +81,9 @@ function Projects() {
               imgPath={hug}
               isBlog={false}
               title="Hug Api Rest"
-              description="Ce programme basé sous Python, démarre un serveur qui permet d'éxécuter des requêtes mqtt à travers une API REST"
+              description="Ce programme basé sous Python, démarre un serveur qui permet d'éxécuter des requêtes HTTP avec Token ou Api-key dans l'entête HTML"
               ghLink="https://github.com/ElvexDom/Hug.git"
-              demoLink="https://hug.elvex-domotique.fr"
+              // demoLink="https://hug.elvex-domotique.fr"
             />
           </Col>
 
