@@ -8,6 +8,7 @@ import weather from "../../Assets/Projects/Weather.jpg";
 import quizz from "../../Assets/Projects/Quizz.jpg";
 import hug from "../../Assets/Projects/Hug.jpg";
 import buddy from "../../Assets/Projects/Buddy.jpg";
+import shop from "../../Assets/Projects/Shop.jpg";
 
 function Projects() {
   return (
@@ -50,18 +51,18 @@ function Projects() {
               title="BlockChain"
               description="Ce programme basé sous ReactJS et HardHat permet d'interagir avec des smart contracts en Solidity, dans le but de déployer, lire et écrire des données sur la blockchain Sepolia."
               ghLink="https://github.com/ElvexDom/Sepolia.git"
-              demoLink="https://sepolia.elvex-domotique.fr"
+              // demoLink="https://sepolia.elvex-domotique.fr"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quizz}
+              imgPath={shop}
               isBlog={false}
-              title="Quizz"
-              description="Ce programme basé sous NodeJS utilise le module express et permet de participer à un questionnaire sur l'alimentation."
-              ghLink="https://github.com/ElvexDom/Quizz.git"
-              demoLink="https://quizz.elvex-domotique.fr"
+              title="Shop"
+              description="Ce programme basé sous AngularJS est un prototype minimal basé sur des données statistiques qui permet d'ajouter des articles dans un panier."
+              ghLink="https://github.com/ElvexDom/WorkShop.git"
+              demoLink="https://workshop.elvex-domotique.fr"
             />
           </Col>
 
@@ -84,6 +85,17 @@ function Projects() {
               description="Ce programme basé sous Python, démarre un serveur qui permet d'éxécuter des requêtes HTTP avec Token ou Api-key dans l'entête HTML"
               ghLink="https://github.com/ElvexDom/Hug.git"
               // demoLink="https://hug.elvex-domotique.fr"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quizz}
+              isBlog={false}
+              title="Quizz"
+              description="Ce programme basé sous NodeJS utilise le module express et permet de participer à un questionnaire sur l'alimentation."
+              ghLink="https://github.com/ElvexDom/Quizz.git"
+              // demoLink="https://quizz.elvex-domotique.fr"
             />
           </Col>
 
